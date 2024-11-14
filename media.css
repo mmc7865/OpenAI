@@ -1,0 +1,139 @@
+@media screen and (max-width: 678px){
+    .container .logo img{
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .logo span{
+        font-size: 16px;
+    }
+    nav .nav-pills{
+        display: none;
+    }
+    .hamburger{
+        display: initial;
+    }
+    .search{
+        font-size: 20px;
+    }
+    header > .navigation{
+        padding: 10px;
+        overflow: scroll;
+    }
+    .hero{
+        margin-top: 30%;
+    }
+    .hero > h1{
+        width: 90%;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .hero > p{
+        width: 88%;
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 5%;
+    }
+    .buttons{
+        flex-direction: column;
+    }
+    .container2 h2{
+        width: 90%;
+        font-size: 30px;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: initial;
+    }
+    .container3 h1{
+        width: 80%;
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 30px;
+        line-height: 35px;
+    }
+    .box{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .content-box{
+        width: 100%;
+        padding: 20px;
+    }
+    .content-box > h3{
+        font-size: 23px;
+       line-height: 25px;
+       text-align: left;
+    }
+    .content-box > p{
+       font-size: 18px;
+       text-align: left;
+       margin-top: 5%;
+    }
+    .video-box{
+        width: 100%;
+    }
+    .container4 h1{
+        width: 60%;
+        line-height: 35px;
+        font-size: 30px;
+    }
+    .pricing{
+        flex-direction: column;
+    }
+    .same{
+        width: 100%;
+        gap: 20px;
+    }
+    .same > h2{
+        font-size: 22px;
+    }
+    .same > h3{
+        font-size: 18px;
+    }
+    .same > h4{
+        font-size: 16px;
+    }
+    .plus .buttons{
+        flex-direction: row;
+        align-items: center;
+        /* margin-top: 10px; */
+    }
+    .plus .buttons .btn{
+        padding: 10px;
+    }
+    .features li{
+        font-size: 14px;
+    }
+    .container5{
+        padding: 60px 20px;
+    }
+    .container5 h2{
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        line-height: 28px;
+    }
+    footer{
+        padding-left: 40px;
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 5%;
+    }
+    .footer-line{
+        flex-direction: column;
+        position: relative;
+    }
+    .social-links{
+        position: absolute;
+        gap: 20px;
+        top: -50%;
+    }
+    .foot a{
+        display: none;
+    }
+   
+}
